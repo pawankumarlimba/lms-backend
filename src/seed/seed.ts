@@ -1,9 +1,9 @@
 import "reflect-metadata";
-import { Database } from "@core/database/Database";
-import { AuthService } from "@services/auth.service";
-import { CreateUserInternalDto } from "@dto/auth/signup.dto";
-import { Role } from "@constants/role.enum";
-import { logger } from "@utils/logger";
+import { Database } from "../core/database/Database";
+import { AuthService } from "../services/auth.service";
+import { CreateUserInternalDto } from "../dto/auth/signup.dto";
+import { Role } from "../constants/role.enum";
+import { logger } from "../utils/logger";
 
 /**
  * SEED_USERS is the single source of truth for evaluator credentials.

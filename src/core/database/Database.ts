@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
-import { config } from "@config/env.config";
-import { logger } from "@utils/logger";
+import { config } from "../../config/env.config";
+import { logger } from "../../utils/logger";
 
 /**
  * Database is a singleton wrapping the single Mongoose connection used by

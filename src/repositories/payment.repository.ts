@@ -1,6 +1,6 @@
-import { BaseRepository } from "@core/base/BaseRepository";
-import { IPayment } from "@models/Payment/payment.types";
-import { PaymentModel } from "@models/Payment/payment.model";
+import { BaseRepository } from "../core/base/BaseRepository";
+import { IPayment } from "../models/Payment/payment.types";
+import { PaymentModel } from "../models/Payment/payment.model";
 
 export class PaymentRepository extends BaseRepository<IPayment> {
   constructor() {

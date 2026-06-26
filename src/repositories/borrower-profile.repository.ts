@@ -1,6 +1,6 @@
-import { BaseRepository } from "@core/base/BaseRepository";
-import { IBorrowerProfile } from "@models/BorrowerProfile/borrower-profile.types";
-import { BorrowerProfileModel } from "@models/BorrowerProfile/borrower-profile.model";
+import { BaseRepository } from "../core/base/BaseRepository";
+import { IBorrowerProfile } from "../models/BorrowerProfile/borrower-profile.types";
+import { BorrowerProfileModel } from "../models/BorrowerProfile/borrower-profile.model";
 
 export class BorrowerProfileRepository extends BaseRepository<IBorrowerProfile> {
   constructor() {

@@ -6,8 +6,8 @@ import {
   QueryOptions,
   UpdateQuery,
 } from "mongoose";
-import { IBaseDocument } from "@core/base/BaseSchema";
-import { NotFoundError } from "@core/errors/ApiError";
+import { IBaseDocument } from "../../core/base/BaseSchema";
+import { NotFoundError } from "../../core/errors/ApiError";
 
 export interface IPaginationParams {
   page?: number;

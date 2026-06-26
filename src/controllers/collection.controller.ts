@@ -1,9 +1,9 @@
 import { Request, Response } from "express";
-import { BaseController } from "@core/base/BaseController";
-import { LoanService } from "@services/loan.service";
-import { PaymentService } from "@services/payment.service";
-import { RecordPaymentDto } from "@dto/payment/record-payment.dto";
-import { parsePagination } from "@utils/pagination.util";
+import { BaseController } from "../core/base/BaseController";
+import { LoanService } from "../services/loan.service";
+import { PaymentService } from "../services/payment.service";
+import { RecordPaymentDto } from "../dto/payment/record-payment.dto";
+import { parsePagination } from "../utils/pagination.util";
 
 export class CollectionController extends BaseController {
   constructor(

@@ -1,6 +1,6 @@
 import { Types } from "mongoose";
-import { IBaseDocument } from "@core/base/BaseSchema";
-import { LoanStatus } from "@constants/loan-status.enum";
+import { IBaseDocument } from "../../core/base/BaseSchema";
+import { LoanStatus } from "../../constants/loan-status.enum";
 
 export interface ISalarySlip {
   url: string;

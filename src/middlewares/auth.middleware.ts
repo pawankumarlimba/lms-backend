@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from "express";
-import { config } from "@config/env.config";
-import { JwtService } from "@services/jwt.service";
-import { UnauthorizedError } from "@core/errors/ApiError";
+import { config } from "../config/env.config";
+import { JwtService } from "../services/jwt.service";
+import { UnauthorizedError } from "../core/errors/ApiError";
 
 const jwtService = new JwtService();
 

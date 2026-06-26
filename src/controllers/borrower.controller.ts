@@ -1,9 +1,9 @@
 import { Request, Response } from "express";
-import { BaseController } from "@core/base/BaseController";
-import { LoanService } from "@services/loan.service";
-import { PersonalDetailsDto } from "@dto/loan/personal-details.dto";
-import { ApplyLoanDto } from "@dto/loan/apply-loan.dto";
-import { BadRequestError } from "@core/errors/ApiError";
+import { BaseController } from "../core/base/BaseController";
+import { LoanService } from "../services/loan.service";
+import { PersonalDetailsDto } from "../dto/loan/personal-details.dto";
+import { ApplyLoanDto } from "../dto/loan/apply-loan.dto";
+import { BadRequestError } from "../core/errors/ApiError";
 
 export class BorrowerController extends BaseController {
   constructor(private readonly loanService: LoanService = new LoanService()) {

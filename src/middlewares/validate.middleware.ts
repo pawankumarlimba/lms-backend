@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import { plainToInstance } from "class-transformer";
 import { validate, ValidationError as CVValidationError } from "class-validator";
-import { ValidationError } from "@core/errors/ApiError";
+import { ValidationError } from "../core/errors/ApiError";
 
 type ClassConstructor<T> = new () => T;
 

@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
-import { Role } from "@constants/role.enum";
-import { ForbiddenError, UnauthorizedError } from "@core/errors/ApiError";
+import { Role } from "../constants/role.enum";
+import { ForbiddenError, UnauthorizedError } from "../core/errors/ApiError";
 
 /**
  * authorize(...allowedRoles) is a middleware FACTORY: each route declares

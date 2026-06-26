@@ -1,8 +1,8 @@
 import { NextFunction, Request, Response } from "express";
-import { ApiError } from "@core/errors/ApiError";
-import { HttpStatus } from "@constants/http-status.enum";
-import { logger } from "@utils/logger";
-import { isProduction } from "@config/env.config";
+import { ApiError } from "../core/errors/ApiError";
+import { HttpStatus } from "../constants/http-status.enum";
+import { logger } from "../utils/logger";
+import { isProduction } from "../config/env.config";
 
 /** 404 handler for routes that don't exist at all. */
 export function notFoundHandler(req: Request, res: Response): void {

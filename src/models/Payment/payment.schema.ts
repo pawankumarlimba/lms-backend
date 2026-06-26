@@ -1,6 +1,6 @@
 import { Schema } from "mongoose";
-import { createBaseSchema } from "@core/base/BaseSchema";
-import { IPayment } from "@models/Payment/payment.types";
+import { createBaseSchema } from "../../core/base/BaseSchema";
+import { IPayment } from "../../models/Payment/payment.types";
 
 export const paymentSchema = createBaseSchema<IPayment>({
   loanApplicationId: {

@@ -1,8 +1,8 @@
 import "reflect-metadata";
 import { App } from "./app";
-import { config } from "@config/env.config";
-import { Database } from "@core/database/Database";
-import { logger } from "@utils/logger";
+import { config } from "../src/config/env.config";
+import { Database } from "../src/core/database/Database";
+import { logger } from "../src/utils/logger";
 
 async function bootstrap(): Promise<void> {
   const database = Database.getInstance();

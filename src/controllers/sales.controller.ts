@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
-import { BaseController } from "@core/base/BaseController";
-import { LoanService } from "@services/loan.service";
-import { parsePagination } from "@utils/pagination.util";
+import { BaseController } from "../core/base/BaseController";
+import { LoanService } from "../services/loan.service";
+import { parsePagination } from "../utils/pagination.util";
 
 export class SalesController extends BaseController {
   constructor(private readonly loanService: LoanService = new LoanService()) {

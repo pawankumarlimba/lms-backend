@@ -1,6 +1,6 @@
 import { Response } from "express";
-import { HttpStatus } from "@constants/http-status.enum";
-import { ApiResponse } from "@core/http/ApiResponse";
+import { HttpStatus } from "../../constants/http-status.enum";
+import { ApiResponse } from "../../core/http/ApiResponse";
 
 /**
  * Every controller in the app extends BaseController. It currently only

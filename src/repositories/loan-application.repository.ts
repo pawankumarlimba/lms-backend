@@ -1,8 +1,8 @@
-import { IPaginationParams } from "@core/base/BaseRepository";
-import { BaseRepository } from "@core/base/BaseRepository";
-import { ILoanApplication } from "@models/LoanApplication/loan-application.types";
-import { LoanApplicationModel } from "@models/LoanApplication/loan-application.model";
-import { LoanStatus } from "@constants/loan-status.enum";
+import { IPaginationParams } from "../core/base/BaseRepository";
+import { BaseRepository } from "../core/base/BaseRepository";
+import { ILoanApplication } from "../models/LoanApplication/loan-application.types";
+import { LoanApplicationModel } from "../models/LoanApplication/loan-application.model";
+import { LoanStatus } from "../constants/loan-status.enum";
 
 export class LoanApplicationRepository extends BaseRepository<ILoanApplication> {
   constructor() {

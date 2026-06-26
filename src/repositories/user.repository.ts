@@ -1,7 +1,7 @@
-import { BaseRepository } from "@core/base/BaseRepository";
-import { IUser } from "@models/User/user.types";
-import { UserModel } from "@models/User/user.model";
-import { Role } from "@constants/role.enum";
+import { BaseRepository } from "../core/base/BaseRepository";
+import { IUser } from "../models/User/user.types";
+import { UserModel } from "../models/User/user.model";
+import { Role } from "../constants/role.enum";
 
 /**
  * UserRepository extends BaseRepository to inherit create/find/update/delete

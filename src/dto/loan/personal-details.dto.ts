@@ -1,6 +1,6 @@
 import { IsDateString, IsEnum, IsNumber, IsString, Matches, Min } from "class-validator";
-import { EmploymentMode } from "@constants/employment-mode.enum";
-import { PAN_REGEX } from "@utils/regex.util";
+import { EmploymentMode } from "../../constants/employment-mode.enum";
+import { PAN_REGEX } from "../../utils/regex.util";
 
 export class PersonalDetailsDto {
   @IsString()

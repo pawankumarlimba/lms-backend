@@ -1,5 +1,5 @@
 import multer from "multer";
-import { BadRequestError } from "@core/errors/ApiError";
+import { BadRequestError } from "../core/errors/ApiError";
 
 const MAX_FILE_SIZE_BYTES = 5 * 1024 * 1024; // 5 MB, per spec
 const ALLOWED_MIME_TYPES = ["application/pdf", "image/jpeg", "image/jpg", "image/png"];

@@ -1,5 +1,5 @@
 import { Types } from "mongoose";
-import { IBaseDocument } from "@core/base/BaseSchema";
+import { IBaseDocument } from "../../core/base/BaseSchema";
 
 export interface IPayment extends IBaseDocument {
   loanApplicationId: Types.ObjectId;

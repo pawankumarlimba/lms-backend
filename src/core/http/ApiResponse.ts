@@ -1,5 +1,5 @@
 import { Response } from "express";
-import { HttpStatus } from "@constants/http-status.enum";
+import { HttpStatus } from "../../constants/http-status.enum";
 
 interface IPaginationMeta {
   page: number;

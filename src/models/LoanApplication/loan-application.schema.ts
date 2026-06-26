@@ -1,7 +1,7 @@
 import { Schema } from "mongoose";
-import { createBaseSchema } from "@core/base/BaseSchema";
-import { ILoanApplication } from "@models/LoanApplication/loan-application.types";
-import { LoanStatus } from "@constants/loan-status.enum";
+import { createBaseSchema } from "../../core/base/BaseSchema";
+import { ILoanApplication } from "../../models/LoanApplication/loan-application.types";
+import { LoanStatus } from "../../constants/loan-status.enum";
 
 const salarySlipSchema = new Schema(
   {

@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { BaseController } from "@core/base/BaseController";
-import { LoanService } from "@services/loan.service";
+import { BaseController } from "../core/base/BaseController";
+import { LoanService } from "../services/loan.service";
 
 export class AdminController extends BaseController {
   constructor(private readonly loanService: LoanService = new LoanService()) {

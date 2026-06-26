@@ -1,5 +1,5 @@
 import { IsEmail, IsEnum, IsOptional, IsString, Matches, MinLength } from "class-validator";
-import { Role } from "@constants/role.enum";
+import { Role } from "../../constants/role.enum";
 
 /**
  * Public signup is borrower-only - executives are provisioned via the seed

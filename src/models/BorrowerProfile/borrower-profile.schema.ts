@@ -1,7 +1,7 @@
 import { Schema } from "mongoose";
-import { createBaseSchema } from "@core/base/BaseSchema";
-import { IBorrowerProfile } from "@models/BorrowerProfile/borrower-profile.types";
-import { EmploymentMode } from "@constants/employment-mode.enum";
+import { createBaseSchema } from "../../core/base/BaseSchema";
+import { IBorrowerProfile } from "../../models/BorrowerProfile/borrower-profile.types";
+import { EmploymentMode } from "../../constants/employment-mode.enum";
 
 const breRuleResultSchema = new Schema(
   {

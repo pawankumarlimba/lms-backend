@@ -1,8 +1,8 @@
 import { Request, Response } from "express";
-import { BaseController } from "@core/base/BaseController";
-import { LoanService } from "@services/loan.service";
-import { RejectLoanDto } from "@dto/loan/reject-loan.dto";
-import { parsePagination } from "@utils/pagination.util";
+import { BaseController } from "../core/base/BaseController";
+import { LoanService } from "../services/loan.service";
+import { RejectLoanDto } from "../dto/loan/reject-loan.dto";
+import { parsePagination } from "../utils/pagination.util";
 
 export class SanctionController extends BaseController {
   constructor(private readonly loanService: LoanService = new LoanService()) {

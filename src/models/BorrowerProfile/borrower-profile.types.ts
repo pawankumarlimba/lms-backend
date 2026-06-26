@@ -1,6 +1,6 @@
 import { Types } from "mongoose";
-import { IBaseDocument } from "@core/base/BaseSchema";
-import { EmploymentMode } from "@constants/employment-mode.enum";
+import { IBaseDocument } from "../../core/base/BaseSchema";
+import { EmploymentMode } from "../../constants/employment-mode.enum";
 
 export interface IBreRuleResult {
   rule: string;

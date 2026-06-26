@@ -3,10 +3,10 @@ import cors from "cors";
 import helmet from "helmet";
 import morgan from "morgan";
 import cookieParser from "cookie-parser";
-import { config } from "@config/env.config";
-import { apiRouter } from "@routes/index.routes";
-import { errorHandler, notFoundHandler } from "@middlewares/error.middleware";
-import { logger } from "@utils/logger";
+import { config } from "../src/config/env.config";
+import { apiRouter } from "../src/routes/index.routes";
+import { errorHandler, notFoundHandler } from "../src/middlewares/error.middleware";
+import { logger } from "../src/utils/logger";
 
 /**
  * App encapsulates the Express application as a class so middleware/route
