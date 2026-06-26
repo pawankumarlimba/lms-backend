@@ -1,15 +1,14 @@
 import "reflect-metadata";
-import { App } from "./app";
-import { config } from "../src/config/env.config";
-import { Database } from "../src/core/database/Database";
-import { logger } from "../src/utils/logger";
+import app from "./app";
+import { config } from "./config/env.config";
+import { Database } from "./core/database/Database";
+import { logger } from "./utils/logger";
 
 async function bootstrap(): Promise<void> {
   const database = Database.getInstance();
   await database.connect();
 
-  const app = new App();
-  const server = app.instance.listen(config.port, () => {
+  const server = app.listen(config.port, () => {
     logger.info(`LMS API listening on port ${config.port} [${config.nodeEnv}]`);
   });
 

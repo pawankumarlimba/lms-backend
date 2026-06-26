@@ -52,3 +52,8 @@ export class App {
     this.instance.use(errorHandler);
   }
 }
+
+// Instantiate once and export the Express instance itself as default —
+// Express apps are callable functions, which is what the platform expects.
+const appInstance = new App();
+export default appInstance.instance;
