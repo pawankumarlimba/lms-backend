@@ -1,16 +1,16 @@
-import { UserRepository } from "@repositories/user.repository";
-import { BorrowerProfileRepository } from "@repositories/borrower-profile.repository";
-import { LoanApplicationRepository } from "@repositories/loan-application.repository";
-import { BusinessRuleEngine } from "@services/bre/BusinessRuleEngine";
-import { UploadService } from "@services/upload.service";
-import { SimpleInterestCalculator } from "@services/loan/InterestCalculator";
-import { PersonalDetailsDto } from "@dto/loan/personal-details.dto";
-import { ApplyLoanDto } from "@dto/loan/apply-loan.dto";
-import { BadRequestError, ForbiddenError, NotFoundError, ValidationError } from "@core/errors/ApiError";
-import { LoanStatus, LoanStatusTransitionMap } from "@constants/loan-status.enum";
-import { IPaginationParams } from "@core/base/BaseRepository";
-import { IBorrowerProfile } from "@models/BorrowerProfile/borrower-profile.types";
-import { ILoanApplication } from "@models/LoanApplication/loan-application.types";
+import { UserRepository } from "../repositories/user.repository";
+import { BorrowerProfileRepository } from "../repositories/borrower-profile.repository";
+import { LoanApplicationRepository } from "../repositories/loan-application.repository";
+import { BusinessRuleEngine } from "../services/bre/BusinessRuleEngine";
+import { UploadService } from "../services/upload.service";
+import { SimpleInterestCalculator } from "../services/loan/InterestCalculator";
+import { PersonalDetailsDto } from "../dto/loan/personal-details.dto";
+import { ApplyLoanDto } from "../dto/loan/apply-loan.dto";
+import { BadRequestError, ForbiddenError, NotFoundError, ValidationError } from "../core/errors/ApiError";
+import { LoanStatus, LoanStatusTransitionMap } from "../constants/loan-status.enum";
+import { IPaginationParams } from "../core/base/BaseRepository";
+import { IBorrowerProfile } from "../models/BorrowerProfile/borrower-profile.types";
+import { ILoanApplication } from "../models/LoanApplication/loan-application.types";
 
 const INTEREST_RATE_PERCENT = 12;
 

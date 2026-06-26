@@ -1,7 +1,7 @@
 import jwt, { SignOptions } from "jsonwebtoken";
-import { config } from "@config/env.config";
-import { Role } from "@constants/role.enum";
-import { UnauthorizedError } from "@core/errors/ApiError";
+import { config } from "../config/env.config";
+import { Role } from "../constants/role.enum";
+import { UnauthorizedError } from "../core/errors/ApiError";
 
 export interface IJwtPayload {
   userId: string;

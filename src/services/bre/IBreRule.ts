@@ -1,5 +1,5 @@
-import { PersonalDetailsDto } from "@dto/loan/personal-details.dto";
-import { IBreRuleResult } from "@models/BorrowerProfile/borrower-profile.types";
+import { PersonalDetailsDto } from "../../dto/loan/personal-details.dto";
+import { IBreRuleResult } from "../../models/BorrowerProfile/borrower-profile.types";
 
 /**
  * IBreRule is the Strategy interface for one Business Rule Engine check.

@@ -1,10 +1,10 @@
-import { PaymentRepository } from "@repositories/payment.repository";
-import { LoanApplicationRepository } from "@repositories/loan-application.repository";
-import { RecordPaymentDto } from "@dto/payment/record-payment.dto";
-import { BadRequestError, ConflictError } from "@core/errors/ApiError";
-import { LoanStatus, LoanStatusTransitionMap } from "@constants/loan-status.enum";
-import { IPayment } from "@models/Payment/payment.types";
-import { ILoanApplication } from "@models/LoanApplication/loan-application.types";
+import { PaymentRepository } from "../repositories/payment.repository";
+import { LoanApplicationRepository } from "../repositories/loan-application.repository";
+import { RecordPaymentDto } from "../dto/payment/record-payment.dto";
+import { BadRequestError, ConflictError } from "../core/errors/ApiError";
+import { LoanStatus, LoanStatusTransitionMap } from "../constants/loan-status.enum";
+import { IPayment } from "../models/Payment/payment.types";
+import { ILoanApplication } from "../models/LoanApplication/loan-application.types";
 
 export interface IRecordPaymentResult {
   payment: IPayment;

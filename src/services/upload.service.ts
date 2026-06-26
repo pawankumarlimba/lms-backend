@@ -1,6 +1,6 @@
-import { cloudinary } from "@config/cloudinary.config";
-import { InternalServerError } from "@core/errors/ApiError";
-import { ISalarySlip } from "@models/LoanApplication/loan-application.types";
+import { cloudinary } from "../config/cloudinary.config";
+import { InternalServerError } from "../core/errors/ApiError";
+import { ISalarySlip } from "../models/LoanApplication/loan-application.types";
 
 /**
  * UploadService is the single abstraction over file storage. If the project

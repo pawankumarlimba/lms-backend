@@ -1,7 +1,7 @@
-import { IBreRule } from "@services/bre/IBreRule";
-import { PersonalDetailsDto } from "@dto/loan/personal-details.dto";
-import { IBreRuleResult } from "@models/BorrowerProfile/borrower-profile.types";
-import { PAN_REGEX } from "@utils/regex.util";
+import { IBreRule } from "../../../services/bre/IBreRule";
+import { PersonalDetailsDto } from "../../../dto/loan/personal-details.dto";
+import { IBreRuleResult } from "../../../models/BorrowerProfile/borrower-profile.types";
+import { PAN_REGEX } from "../../../utils/regex.util";
 
 export class PanFormatRule implements IBreRule {
   public readonly name = "PAN_FORMAT";

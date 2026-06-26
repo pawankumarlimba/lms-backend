@@ -1,10 +1,10 @@
-import { IBreRule } from "@services/bre/IBreRule";
-import { AgeRule } from "@services/bre/rules/AgeRule";
-import { SalaryRule } from "@services/bre/rules/SalaryRule";
-import { PanFormatRule } from "@services/bre/rules/PanFormatRule";
-import { EmploymentRule } from "@services/bre/rules/EmploymentRule";
-import { PersonalDetailsDto } from "@dto/loan/personal-details.dto";
-import { IBreRuleResult } from "@models/BorrowerProfile/borrower-profile.types";
+import { IBreRule } from "../../services/bre/IBreRule";
+import { AgeRule } from "../../services/bre/rules/AgeRule";
+import { SalaryRule } from "../../services/bre/rules/SalaryRule";
+import { PanFormatRule } from "../../services/bre/rules/PanFormatRule";
+import { EmploymentRule } from "../../services/bre/rules/EmploymentRule";
+import { PersonalDetailsDto } from "../../dto/loan/personal-details.dto";
+import { IBreRuleResult } from "../../models/BorrowerProfile/borrower-profile.types";
 
 export interface IBreVerdict {
   status: "PASSED" | "REJECTED";

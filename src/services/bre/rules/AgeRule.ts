@@ -1,6 +1,6 @@
-import { IBreRule } from "@services/bre/IBreRule";
-import { PersonalDetailsDto } from "@dto/loan/personal-details.dto";
-import { IBreRuleResult } from "@models/BorrowerProfile/borrower-profile.types";
+import { IBreRule } from "../../../services/bre/IBreRule";
+import { PersonalDetailsDto } from "../../../dto/loan/personal-details.dto";
+import { IBreRuleResult } from "../../../models/BorrowerProfile/borrower-profile.types";
 
 const MIN_AGE = 23;
 const MAX_AGE = 50;

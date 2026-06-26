@@ -1,10 +1,10 @@
-import { UserRepository } from "@repositories/user.repository";
-import { JwtService } from "@services/jwt.service";
-import { SignupDto, CreateUserInternalDto } from "@dto/auth/signup.dto";
-import { LoginDto } from "@dto/auth/login.dto";
-import { ConflictError, UnauthorizedError } from "@core/errors/ApiError";
-import { Role } from "@constants/role.enum";
-import { IUser } from "@models/User/user.types";
+import { UserRepository } from "../repositories/user.repository";
+import { JwtService } from "../services/jwt.service";
+import { SignupDto, CreateUserInternalDto } from "../dto/auth/signup.dto";
+import { LoginDto } from "../dto/auth/login.dto";
+import { ConflictError, UnauthorizedError } from "../core/errors/ApiError";
+import { Role } from "../constants/role.enum";
+import { IUser } from "../models/User/user.types";
 
 export interface IAuthResult {
   token: string;

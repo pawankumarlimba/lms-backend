@@ -1,8 +1,8 @@
 import bcrypt from "bcryptjs";
-import { createBaseSchema } from "@core/base/BaseSchema";
-import { IUser } from "@models/User/user.types";
-import { Role } from "@constants/role.enum";
-import { config } from "@config/env.config";
+import { createBaseSchema } from "../../core/base/BaseSchema";
+import { IUser } from "../../models/User/user.types";
+import { Role } from "../../constants/role.enum";
+import { config } from "../../config/env.config";
 
 export const userSchema = createBaseSchema<IUser>({
   fullName: { type: String, required: true, trim: true },

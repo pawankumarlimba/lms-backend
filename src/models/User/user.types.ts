@@ -1,5 +1,5 @@
-import { IBaseDocument } from "@core/base/BaseSchema";
-import { Role } from "@constants/role.enum";
+import { IBaseDocument } from "../../core/base/BaseSchema";
+import { Role } from "../../constants/role.enum";
 
 export interface IUser extends IBaseDocument {
   fullName: string;
