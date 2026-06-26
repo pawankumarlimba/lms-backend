@@ -1,0 +1,14 @@
+import { NextFunction, Request, Response } from "express";
+
+type AsyncRouteHandler = (req: Request, res: Response, next: NextFunction) => Promise<unknown>;
+
+/**
+ * Wraps an async Express handler so any rejected promise / thrown error
+ * is forwarded to next(), reaching the global error middleware instead of
+ * crashing the process or hanging the request.
+ */
+export const asyncHandler = (handler: AsyncRouteHandler) => {
+  return (req: Request, res: Response, next: NextFunction): void => {
+    handler(req, res, next).catch(next);
+  };
+};

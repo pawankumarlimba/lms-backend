@@ -1,0 +1,5 @@
+export enum EmploymentMode {
+  SALARIED = "SALARIED",
+  SELF_EMPLOYED = "SELF_EMPLOYED",
+  UNEMPLOYED = "UNEMPLOYED",
+}
