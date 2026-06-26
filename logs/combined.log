@@ -1,0 +1,160 @@
+[2026-06-26T04:34:54.468Z] info: MongoDB connected -> test
+[2026-06-26T04:34:54.471Z] info: Seeding role accounts...
+[2026-06-26T04:34:55.381Z] info:   -> [ADMIN] admin@lms.test
+[2026-06-26T04:34:55.583Z] info:   -> [SALES] sales@lms.test
+[2026-06-26T04:34:55.771Z] info:   -> [SANCTION] sanction@lms.test
+[2026-06-26T04:34:55.975Z] info:   -> [DISBURSEMENT] disbursement@lms.test
+[2026-06-26T04:34:56.166Z] info:   -> [COLLECTION] collection@lms.test
+[2026-06-26T04:34:56.361Z] info:   -> [BORROWER] borrower@lms.test
+[2026-06-26T04:36:18.537Z] info: MongoDB connected -> test
+[2026-06-26T04:36:18.551Z] info: LMS API listening on port 5000 [development]
+[2026-06-26T04:36:47.879Z] info: ::1 - - [26/Jun/2026:04:36:47 +0000] "GET / HTTP/1.1" 404 51 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:36:48.471Z] info: ::1 - - [26/Jun/2026:04:36:48 +0000] "GET /favicon.ico HTTP/1.1" 404 62 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:37:03.290Z] info: ::1 - - [26/Jun/2026:04:37:03 +0000] "GET / HTTP/1.1" 404 51 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:38:46.110Z] info: ::1 - - [26/Jun/2026:04:38:46 +0000] "GET / HTTP/1.1" 404 51 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:39:18.852Z] info: SIGINT received - shutting down gracefully
+[2026-06-26T04:40:54.379Z] warn: MongoDB disconnected.
+[2026-06-26T04:41:03.309Z] info: MongoDB connected -> test
+[2026-06-26T04:41:03.358Z] info: LMS API listening on port 5000 [development]
+[2026-06-26T04:41:07.887Z] info: ::1 - - [26/Jun/2026:04:41:07 +0000] "GET /api HTTP/1.1" 404 54 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:41:12.101Z] info: ::1 - - [26/Jun/2026:04:41:12 +0000] "GET /api HTTP/1.1" 404 54 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:41:12.959Z] info: ::1 - - [26/Jun/2026:04:41:12 +0000] "GET /api HTTP/1.1" 404 54 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:41:23.557Z] info: ::1 - - [26/Jun/2026:04:41:23 +0000] "GET /health HTTP/1.1" 200 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:41:30.258Z] info: ::1 - - [26/Jun/2026:04:41:30 +0000] "GET /api HTTP/1.1" 404 54 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:42:47.654Z] info: ::1 - - [26/Jun/2026:04:42:47 +0000] "GET /api/auth/me HTTP/1.1" 401 58 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:42:47.722Z] info: ::1 - - [26/Jun/2026:04:42:47 +0000] "GET /api/auth/me HTTP/1.1" 401 58 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:43:45.449Z] info: ::1 - - [26/Jun/2026:04:43:45 +0000] "POST /api/auth/signup HTTP/1.1" 422 171 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:43:49.780Z] info: ::1 - - [26/Jun/2026:04:43:49 +0000] "POST /api/auth/signup HTTP/1.1" 422 171 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:44:01.407Z] info: ::1 - - [26/Jun/2026:04:44:01 +0000] "POST /api/auth/signup HTTP/1.1" 201 400 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:45:22.542Z] info: ::1 - - [26/Jun/2026:04:45:22 +0000] "POST /api/borrower/personal-details HTTP/1.1" 200 537 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:46:06.013Z] info: ::1 - - [26/Jun/2026:04:46:06 +0000] "POST /api/borrower/apply HTTP/1.1" 201 707 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:46:08.147Z] info: ::1 - - [26/Jun/2026:04:46:08 +0000] "GET /api/borrower/applications/6a3e040d2f9c46b26da11e30 HTTP/1.1" 200 1242 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:46:08.290Z] info: ::1 - - [26/Jun/2026:04:46:08 +0000] "GET /api/borrower/applications/6a3e040d2f9c46b26da11e30 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:49:34.096Z] info: ::1 - - [26/Jun/2026:04:49:34 +0000] "POST /api/auth/logout HTTP/1.1" 200 64 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:50:16.981Z] info: ::1 - - [26/Jun/2026:04:50:16 +0000] "GET /api/auth/me HTTP/1.1" 401 58 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:50:16.987Z] info: ::1 - - [26/Jun/2026:04:50:16 +0000] "GET /api/auth/me HTTP/1.1" 401 58 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:50:48.821Z] info: ::1 - - [26/Jun/2026:04:50:48 +0000] "POST /api/auth/login HTTP/1.1" 200 372 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:50:52.674Z] info: ::1 - - [26/Jun/2026:04:50:52 +0000] "GET /api/dashboard/admin/overview HTTP/1.1" 200 144 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:50:53.197Z] info: ::1 - - [26/Jun/2026:04:50:53 +0000] "GET /api/dashboard/admin/overview HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:51:01.280Z] info: ::1 - - [26/Jun/2026:04:51:01 +0000] "GET /api/dashboard/sales/leads?page=1&limit=20 HTTP/1.1" 200 307 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:51:01.430Z] info: ::1 - - [26/Jun/2026:04:51:01 +0000] "GET /api/dashboard/sales/leads?page=1&limit=20 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:51:07.539Z] info: ::1 - - [26/Jun/2026:04:51:07 +0000] "GET /api/dashboard/disbursement/sanctioned?page=1&limit=20 HTTP/1.1" 200 118 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:51:07.614Z] info: ::1 - - [26/Jun/2026:04:51:07 +0000] "GET /api/dashboard/disbursement/sanctioned?page=1&limit=20 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:51:10.724Z] info: ::1 - - [26/Jun/2026:04:51:10 +0000] "GET /api/dashboard/collection/disbursed?page=1&limit=20 HTTP/1.1" 200 117 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:51:10.800Z] info: ::1 - - [26/Jun/2026:04:51:10 +0000] "GET /api/dashboard/collection/disbursed?page=1&limit=20 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:51:16.035Z] info: ::1 - - [26/Jun/2026:04:51:16 +0000] "POST /api/auth/logout HTTP/1.1" 200 64 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:51:42.040Z] info: ::1 - - [26/Jun/2026:04:51:42 +0000] "GET /api/auth/me HTTP/1.1" 401 58 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:51:42.043Z] info: ::1 - - [26/Jun/2026:04:51:42 +0000] "GET /api/auth/me HTTP/1.1" 401 58 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:51:43.713Z] info: ::1 - - [26/Jun/2026:04:51:43 +0000] "POST /api/auth/login HTTP/1.1" 200 372 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:51:44.005Z] info: ::1 - - [26/Jun/2026:04:51:44 +0000] "GET /api/dashboard/admin/overview HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:51:44.160Z] info: ::1 - - [26/Jun/2026:04:51:44 +0000] "GET /api/dashboard/admin/overview HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:51:49.664Z] info: ::1 - - [26/Jun/2026:04:51:49 +0000] "POST /api/auth/logout HTTP/1.1" 200 64 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:51:57.156Z] info: ::1 - - [26/Jun/2026:04:51:57 +0000] "GET /api/auth/me HTTP/1.1" 401 58 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:51:57.160Z] info: ::1 - - [26/Jun/2026:04:51:57 +0000] "GET /api/auth/me HTTP/1.1" 401 58 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:52:22.211Z] info: ::1 - - [26/Jun/2026:04:52:22 +0000] "POST /api/auth/login HTTP/1.1" 200 390 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:52:23.991Z] info: ::1 - - [26/Jun/2026:04:52:23 +0000] "GET /api/dashboard/sanction/applied?page=1&limit=20 HTTP/1.1" 200 851 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:52:24.127Z] info: ::1 - - [26/Jun/2026:04:52:24 +0000] "GET /api/dashboard/sanction/applied?page=1&limit=20 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:52:34.358Z] info: ::1 - - [26/Jun/2026:04:52:34 +0000] "PATCH /api/dashboard/sanction/6a3e040d2f9c46b26da11e30/sanction HTTP/1.1" 200 783 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:52:38.831Z] info: ::1 - - [26/Jun/2026:04:52:38 +0000] "POST /api/auth/logout HTTP/1.1" 200 64 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:52:55.299Z] info: ::1 - - [26/Jun/2026:04:52:55 +0000] "POST /api/auth/login HTTP/1.1" 200 407 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:52:56.040Z] info: ::1 - - [26/Jun/2026:04:52:56 +0000] "GET /api/dashboard/disbursement/sanctioned?page=1&limit=20 HTTP/1.1" 200 941 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:52:56.177Z] info: ::1 - - [26/Jun/2026:04:52:56 +0000] "GET /api/dashboard/disbursement/sanctioned?page=1&limit=20 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:53:04.015Z] info: ::1 - - [26/Jun/2026:04:53:04 +0000] "PATCH /api/dashboard/disbursement/6a3e040d2f9c46b26da11e30/disburse HTTP/1.1" 200 863 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:53:22.108Z] info: ::1 - - [26/Jun/2026:04:53:22 +0000] "POST /api/auth/logout HTTP/1.1" 200 64 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:53:26.085Z] info: ::1 - - [26/Jun/2026:04:53:26 +0000] "POST /api/auth/login HTTP/1.1" 200 399 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:53:26.370Z] info: ::1 - - [26/Jun/2026:04:53:26 +0000] "GET /api/dashboard/collection/disbursed?page=1&limit=20 HTTP/1.1" 200 1021 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:53:26.515Z] info: ::1 - - [26/Jun/2026:04:53:26 +0000] "GET /api/dashboard/collection/disbursed?page=1&limit=20 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:53:36.224Z] info: ::1 - - [26/Jun/2026:04:53:36 +0000] "GET /api/dashboard/collection/6a3e040d2f9c46b26da11e30/payments HTTP/1.1" 200 55 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:53:36.289Z] info: ::1 - - [26/Jun/2026:04:53:36 +0000] "GET /api/dashboard/collection/6a3e040d2f9c46b26da11e30 HTTP/1.1" 200 1545 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:53:36.297Z] info: ::1 - - [26/Jun/2026:04:53:36 +0000] "GET /api/dashboard/collection/6a3e040d2f9c46b26da11e30/payments HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:53:36.427Z] info: ::1 - - [26/Jun/2026:04:53:36 +0000] "GET /api/dashboard/collection/6a3e040d2f9c46b26da11e30 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:54:09.968Z] info: ::1 - - [26/Jun/2026:04:54:09 +0000] "POST /api/dashboard/collection/6a3e040d2f9c46b26da11e30/payments HTTP/1.1" 201 1170 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:54:10.068Z] info: ::1 - - [26/Jun/2026:04:54:10 +0000] "GET /api/dashboard/collection/6a3e040d2f9c46b26da11e30/payments HTTP/1.1" 200 339 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:54:10.124Z] info: ::1 - - [26/Jun/2026:04:54:10 +0000] "GET /api/dashboard/collection/6a3e040d2f9c46b26da11e30 HTTP/1.1" 200 1546 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:54:16.444Z] info: ::1 - - [26/Jun/2026:04:54:16 +0000] "POST /api/auth/logout HTTP/1.1" 200 64 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:54:33.328Z] info: ::1 - - [26/Jun/2026:04:54:33 +0000] "POST /api/auth/login HTTP/1.1" 200 377 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:54:33.639Z] info: ::1 - - [26/Jun/2026:04:54:33 +0000] "GET /api/dashboard/sales/leads?page=1&limit=20 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:54:33.771Z] info: ::1 - - [26/Jun/2026:04:54:33 +0000] "GET /api/dashboard/sales/leads?page=1&limit=20 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:54:44.416Z] info: ::1 - - [26/Jun/2026:04:54:44 +0000] "POST /api/auth/logout HTTP/1.1" 200 64 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:55:00.687Z] info: ::1 - - [26/Jun/2026:04:55:00 +0000] "POST /api/auth/login HTTP/1.1" 200 385 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:55:02.144Z] info: ::1 - - [26/Jun/2026:04:55:02 +0000] "GET /api/borrower/applications HTTP/1.1" 200 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:55:02.215Z] info: ::1 - - [26/Jun/2026:04:55:02 +0000] "GET /api/borrower/applications HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:55:18.986Z] info: ::1 - - [26/Jun/2026:04:55:18 +0000] "GET /api/borrower/applications HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:55:19.051Z] info: ::1 - - [26/Jun/2026:04:55:19 +0000] "GET /api/borrower/applications HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:55:22.718Z] info: ::1 - - [26/Jun/2026:04:55:22 +0000] "POST /api/auth/logout HTTP/1.1" 200 64 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:55:44.703Z] info: ::1 - - [26/Jun/2026:04:55:44 +0000] "POST /api/auth/login HTTP/1.1" 401 55 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:55:51.013Z] info: ::1 - - [26/Jun/2026:04:55:51 +0000] "POST /api/auth/login HTTP/1.1" 200 394 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:55:51.162Z] info: ::1 - - [26/Jun/2026:04:55:51 +0000] "GET /api/borrower/applications HTTP/1.1" 200 872 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:55:51.238Z] info: ::1 - - [26/Jun/2026:04:55:51 +0000] "GET /api/borrower/applications HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:55:56.152Z] info: ::1 - - [26/Jun/2026:04:55:56 +0000] "GET /api/borrower/applications/6a3e040d2f9c46b26da11e30 HTTP/1.1" 200 1553 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:55:56.293Z] info: ::1 - - [26/Jun/2026:04:55:56 +0000] "GET /api/borrower/applications/6a3e040d2f9c46b26da11e30 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:57:53.391Z] error: Unhandled error: Cast to ObjectId failed for value "personal-details" (type string) at path "_id" for model "LoanApplication"
+CastError: Cast to ObjectId failed for value "personal-details" (type string) at path "_id" for model "LoanApplication"
+    at SchemaObjectId.cast (F:\lms-backend\node_modules\mongoose\lib\schema\objectId.js:253:11)
+    at SchemaObjectId.SchemaType.applySetters (F:\lms-backend\node_modules\mongoose\lib\schemaType.js:1288:12)
+    at SchemaObjectId.SchemaType.castForQuery (F:\lms-backend\node_modules\mongoose\lib\schemaType.js:1718:17)
+    at cast (F:\lms-backend\node_modules\mongoose\lib\cast.js:390:32)
+    at model.Query.Query.cast (F:\lms-backend\node_modules\mongoose\lib\query.js:5060:12)
+    at model.Query.Query._castConditions (F:\lms-backend\node_modules\mongoose\lib\query.js:2374:10)
+    at model.Query._findOne (F:\lms-backend\node_modules\mongoose\lib\query.js:2697:8)
+    at model.Query.exec (F:\lms-backend\node_modules\mongoose\lib\query.js:4627:80)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async LoanService.getLoanByIdOrThrow (F:\lms-backend\src\services\loan.service.ts:107:18)
+[2026-06-26T04:57:53.402Z] info: ::1 - - [26/Jun/2026:04:57:53 +0000] "GET /api/borrower/applications/personal-details HTTP/1.1" 500 144 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:57:53.414Z] error: Unhandled error: Cast to ObjectId failed for value "personal-details" (type string) at path "_id" for model "LoanApplication"
+CastError: Cast to ObjectId failed for value "personal-details" (type string) at path "_id" for model "LoanApplication"
+    at SchemaObjectId.cast (F:\lms-backend\node_modules\mongoose\lib\schema\objectId.js:253:11)
+    at SchemaObjectId.SchemaType.applySetters (F:\lms-backend\node_modules\mongoose\lib\schemaType.js:1288:12)
+    at SchemaObjectId.SchemaType.castForQuery (F:\lms-backend\node_modules\mongoose\lib\schemaType.js:1718:17)
+    at cast (F:\lms-backend\node_modules\mongoose\lib\cast.js:390:32)
+    at model.Query.Query.cast (F:\lms-backend\node_modules\mongoose\lib\query.js:5060:12)
+    at model.Query.Query._castConditions (F:\lms-backend\node_modules\mongoose\lib\query.js:2374:10)
+    at model.Query._findOne (F:\lms-backend\node_modules\mongoose\lib\query.js:2697:8)
+    at model.Query.exec (F:\lms-backend\node_modules\mongoose\lib\query.js:4627:80)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async LoanService.getLoanByIdOrThrow (F:\lms-backend\src\services\loan.service.ts:107:18)
+[2026-06-26T04:57:53.416Z] info: ::1 - - [26/Jun/2026:04:57:53 +0000] "GET /api/borrower/applications/personal-details HTTP/1.1" 500 144 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:57:53.482Z] info: ::1 - - [26/Jun/2026:04:57:53 +0000] "GET /api/auth/me HTTP/1.1" 200 282 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:57:53.550Z] info: ::1 - - [26/Jun/2026:04:57:53 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:58:17.467Z] info: ::1 - - [26/Jun/2026:04:58:17 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:58:17.531Z] info: ::1 - - [26/Jun/2026:04:58:17 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:58:38.200Z] info: ::1 - - [26/Jun/2026:04:58:38 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T04:58:38.273Z] info: ::1 - - [26/Jun/2026:04:58:38 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T05:00:44.227Z] info: MongoDB connected -> test
+[2026-06-26T05:00:44.247Z] info: LMS API listening on port 5000 [development]
+[2026-06-26T05:00:58.244Z] info: MongoDB connected -> test
+[2026-06-26T05:00:58.299Z] info: LMS API listening on port 5000 [development]
+[2026-06-26T05:01:37.576Z] info: ::1 - - [26/Jun/2026:05:01:37 +0000] "POST /api/borrower/apply HTTP/1.1" 201 696 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T05:01:38.108Z] info: ::1 - - [26/Jun/2026:05:01:38 +0000] "GET /api/borrower/applications/6a3e07b1bfb2f83926adab9c HTTP/1.1" 200 1231 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T05:01:38.322Z] info: ::1 - - [26/Jun/2026:05:01:38 +0000] "GET /api/borrower/applications/6a3e07b1bfb2f83926adab9c HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T05:02:28.402Z] warn: MongoDB disconnected.
+[2026-06-26T05:04:10.758Z] info: MongoDB connected -> test
+[2026-06-26T05:04:10.775Z] info: LMS API listening on port 5000 [development]
+[2026-06-26T06:21:54.664Z] info: ::ffff:172.23.147.52 - - [26/Jun/2026:06:21:54 +0000] "GET / HTTP/1.1" 404 51 "-" "Norton Antivirus"
+[2026-06-26T06:22:11.035Z] info: ::ffff:172.23.147.52 - - [26/Jun/2026:06:22:11 +0000] "GET / HTTP/1.1" 404 51 "-" "-"
+[2026-06-26T06:22:11.821Z] info: ::ffff:172.23.147.52 - - [26/Jun/2026:06:22:11 +0000] "GET /loginMsg.js HTTP/1.1" 404 62 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+[2026-06-26T06:22:11.835Z] info: ::ffff:172.23.147.52 - - [26/Jun/2026:06:22:11 +0000] "GET /cgi/get.cgi?cmd=home_login HTTP/1.1" 404 77 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+[2026-06-26T06:22:12.898Z] info: ::ffff:172.23.147.52 - - [26/Jun/2026:06:22:12 +0000] "GET /rootDesc.xml HTTP/1.1" 404 63 "-" "Norton Antivirus"
+[2026-06-26T06:22:13.030Z] info: ::ffff:172.23.147.52 - - [26/Jun/2026:06:22:13 +0000] "POST /boaform/formTracert HTTP/1.1" 404 71 "-" "Norton Antivirus"
+[2026-06-26T06:24:19.272Z] info: ::1 - - [26/Jun/2026:06:24:19 +0000] "POST /api/borrower/apply HTTP/1.1" 201 696 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T06:24:21.303Z] info: ::1 - - [26/Jun/2026:06:24:21 +0000] "GET /api/borrower/applications/6a3e1b13a416658f09c37369 HTTP/1.1" 200 1231 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T06:24:21.450Z] info: ::1 - - [26/Jun/2026:06:24:21 +0000] "GET /api/borrower/applications/6a3e1b13a416658f09c37369 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T06:24:51.626Z] info: ::1 - - [26/Jun/2026:06:24:51 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T06:24:51.689Z] info: ::1 - - [26/Jun/2026:06:24:51 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T06:25:03.789Z] info: ::1 - - [26/Jun/2026:06:25:03 +0000] "POST /api/auth/login HTTP/1.1" 200 394 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+[2026-06-26T06:25:04.057Z] info: ::1 - - [26/Jun/2026:06:25:04 +0000] "GET /api/borrower/applications HTTP/1.1" 200 2140 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+[2026-06-26T06:25:04.117Z] info: ::1 - - [26/Jun/2026:06:25:04 +0000] "GET /api/borrower/applications HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+[2026-06-26T06:27:49.670Z] info: SIGINT received - shutting down gracefully
+[2026-06-26T06:27:50.172Z] warn: MongoDB disconnected.
+[2026-06-26T06:49:17.084Z] info: MongoDB connected -> test
+[2026-06-26T06:49:17.096Z] info: LMS API listening on port 5000 [development]
+[2026-06-26T06:49:38.403Z] info: SIGINT received - shutting down gracefully
+[2026-06-26T07:29:34.423Z] info: MongoDB connected -> test
+[2026-06-26T07:29:34.432Z] info: LMS API listening on port 5000 [development]
+[2026-06-26T07:29:51.701Z] info: MongoDB connected -> test
+[2026-06-26T07:29:51.724Z] info: LMS API listening on port 5000 [development]
+[2026-06-26T07:37:00.532Z] info: MongoDB connected -> test
+[2026-06-26T07:37:00.540Z] info: LMS API listening on port 5000 [development]
+[2026-06-26T07:38:01.626Z] info: ::1 - - [26/Jun/2026:07:38:01 +0000] "GET / HTTP/1.1" 404 51 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T07:38:07.880Z] info: ::1 - - [26/Jun/2026:07:38:07 +0000] "GET /health HTTP/1.1" 200 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+[2026-06-26T07:39:52.934Z] info: SIGINT received - shutting down gracefully

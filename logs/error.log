@@ -1,0 +1,24 @@
+[2026-06-26T04:57:53.391Z] error: Unhandled error: Cast to ObjectId failed for value "personal-details" (type string) at path "_id" for model "LoanApplication"
+CastError: Cast to ObjectId failed for value "personal-details" (type string) at path "_id" for model "LoanApplication"
+    at SchemaObjectId.cast (F:\lms-backend\node_modules\mongoose\lib\schema\objectId.js:253:11)
+    at SchemaObjectId.SchemaType.applySetters (F:\lms-backend\node_modules\mongoose\lib\schemaType.js:1288:12)
+    at SchemaObjectId.SchemaType.castForQuery (F:\lms-backend\node_modules\mongoose\lib\schemaType.js:1718:17)
+    at cast (F:\lms-backend\node_modules\mongoose\lib\cast.js:390:32)
+    at model.Query.Query.cast (F:\lms-backend\node_modules\mongoose\lib\query.js:5060:12)
+    at model.Query.Query._castConditions (F:\lms-backend\node_modules\mongoose\lib\query.js:2374:10)
+    at model.Query._findOne (F:\lms-backend\node_modules\mongoose\lib\query.js:2697:8)
+    at model.Query.exec (F:\lms-backend\node_modules\mongoose\lib\query.js:4627:80)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async LoanService.getLoanByIdOrThrow (F:\lms-backend\src\services\loan.service.ts:107:18)
+[2026-06-26T04:57:53.414Z] error: Unhandled error: Cast to ObjectId failed for value "personal-details" (type string) at path "_id" for model "LoanApplication"
+CastError: Cast to ObjectId failed for value "personal-details" (type string) at path "_id" for model "LoanApplication"
+    at SchemaObjectId.cast (F:\lms-backend\node_modules\mongoose\lib\schema\objectId.js:253:11)
+    at SchemaObjectId.SchemaType.applySetters (F:\lms-backend\node_modules\mongoose\lib\schemaType.js:1288:12)
+    at SchemaObjectId.SchemaType.castForQuery (F:\lms-backend\node_modules\mongoose\lib\schemaType.js:1718:17)
+    at cast (F:\lms-backend\node_modules\mongoose\lib\cast.js:390:32)
+    at model.Query.Query.cast (F:\lms-backend\node_modules\mongoose\lib\query.js:5060:12)
+    at model.Query.Query._castConditions (F:\lms-backend\node_modules\mongoose\lib\query.js:2374:10)
+    at model.Query._findOne (F:\lms-backend\node_modules\mongoose\lib\query.js:2697:8)
+    at model.Query.exec (F:\lms-backend\node_modules\mongoose\lib\query.js:4627:80)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async LoanService.getLoanByIdOrThrow (F:\lms-backend\src\services\loan.service.ts:107:18)
