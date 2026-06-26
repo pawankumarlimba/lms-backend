@@ -1,5 +1,5 @@
 # LMS Backend
-
+Project Link=https://lms-backend-nine-azure.vercel.app/health
 Node.js + Express + TypeScript + MongoDB (Mongoose) API for the Loan Management System.
 
 ## Architecture
@@ -72,7 +72,6 @@ it - controllers never re-validate input themselves.
 
 ```bash
 npm install
-cp .env.example .env   # fill in MONGO_URI, JWT_SECRET, Cloudinary keys
 npm run seed            # creates one account per role (see below)
 npm run dev              # http://localhost:5000
 ```
